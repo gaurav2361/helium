@@ -13,11 +13,9 @@ ungoogled-chromium/disable-crash-reporter.patch
 ungoogled-chromium/disable-google-host-detection.patch
 ungoogled-chromium/toggle-translation-via-switch.patch
 ungoogled-chromium/disable-untraceable-urls.patch
-ungoogled-chromium/disable-profile-avatar-downloading.patch
 ungoogled-chromium/disable-gcm.patch
 ungoogled-chromium/disable-domain-reliability.patch
 ungoogled-chromium/block-trk-and-subdomains.patch
-ungoogled-chromium/disable-gaia.patch
 ungoogled-chromium/disable-fonts-googleapis-references.patch
 ungoogled-chromium/disable-webstore-urls.patch
 ungoogled-chromium/fix-learn-doubleclick-hsts.patch
@@ -46,7 +44,6 @@ inox-patchset/disable-battery-status-service.patch
 debian/disable-google-api-warning.patch
 
 iridium-browser/updater-disable-auto-update.patch
-iridium-browser/browser-disable-profile-auto-import-on-first-run.patch
 
 bromite/fingerprinting-flags-client-rects-and-measuretext.patch
 bromite/flag-max-connections-per-host.patch
@@ -192,8 +189,6 @@ helium/core/hibernate-tab-context-menu.patch
 
 helium/settings/settings-page-icons.patch
 helium/settings/move-search-suggest.patch
-helium/settings/remove-autofill.patch
-helium/settings/remove-profile-page-sections.patch
 helium/settings/fix-page-names.patch
 helium/settings/disable-safety-hub-page.patch
 helium/settings/remove-results-help-link.patch
@@ -211,7 +206,6 @@ helium/settings/reorder-settings-menu.patch
 helium/settings/add-search-engine-button.patch
 
 helium/hop/setup.patch
-helium/hop/disable-password-manager.patch
 
 helium/ui/layout-constants.patch
 helium/ui/layout-provider.patch
@@ -268,7 +262,6 @@ helium/ui/helium-color-scheme.patch
 helium/ui/improve-flags-webui.patch
 helium/ui/ublock-show-in-settings.patch
 helium/ui/licenses-in-credits.patch
-helium/ui/remove-autofill-link-to-password-manager.patch
 helium/ui/fix-caption-button-bounds.patch
 helium/ui/find-bar.patch
 helium/ui/remove-zoom-action.patch

@@ -4,7 +4,6 @@
    if (!incognito && !guest) {
      add(new OmniboxPedalClearBrowsingData(/*incognito=*/false));
    }
--  add(new OmniboxPedalManagePasswords());
 -  add(new OmniboxPedalUpdateCreditCard());
    add(new OmniboxPedalLaunchIncognito());
 -  if (!base::android::device_info::is_automotive()) {
@@ -17,7 +16,6 @@
    if (!guest) {
      add(new OmniboxPedalClearBrowsingData(incognito));
    }
--  add(new OmniboxPedalManagePasswords());
 -  add(new OmniboxPedalUpdateCreditCard());
    add(new OmniboxPedalLaunchIncognito());
 -  add(new OmniboxPedalTranslate());
@@ -26,7 +24,6 @@
    add(new OmniboxPedalManageSecuritySettings());
    add(new OmniboxPedalManageCookies());
 -  add(new OmniboxPedalManageAddresses());
--  add(new OmniboxPedalManageSync());
    add(new OmniboxPedalManageSiteSettings());
 -  add(new OmniboxPedalSeeChromeTips());
 -
@@ -38,8 +35,6 @@
 -    add(new OmniboxPedalCreateGoogleSite());
 -    add(new OmniboxPedalCreateGoogleKeepNote());
 -    add(new OmniboxPedalCreateGoogleForm());
--    add(new OmniboxPedalManageGoogleAccount());
--    add(new OmniboxPedalChangeGooglePassword());
 -  }
 -
    if (incognito) {
